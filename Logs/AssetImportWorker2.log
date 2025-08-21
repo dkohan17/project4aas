@@ -1,0 +1,339 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit IoTEnterpriseS' Language: 'ru' Physical Memory: 32361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Hub\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Valerius/Documents/GitHub/project4aas
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57959
+Successfully changed project path to: C:/Users/Valerius/Documents/GitHub/project4aas
+C:/Users/Valerius/Documents/GitHub/project4aas
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18368] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1208436530 [EditorId] 1208436530 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18368] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1208436530 [EditorId] 1208436530 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 49.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Valerius/Documents/GitHub/project4aas/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001210 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (374ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (64ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002148 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.520 seconds
+Domain Reload Profiling:
+	ReloadAssembly (520ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (395ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (149.5 KB). Loaded Objects now: 3786.
+Memory consumption went from 120.2 MB to 120.0 MB.
+Total: 2.228600 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.857700 ms  DeleteObjects: 0.114000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 861845.150977 seconds.
+  path: Assets/Materials/іфаіва.mat
+  artifactKey: Guid(dd4008c0411d61740ac8a71dfa102289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/іфаіва.mat using Guid(dd4008c0411d61740ac8a71dfa102289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808644293557d23e813eb9f203240907') in 0.076798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.474282 seconds.
+  path: Assets/Materials/spotted-rust-unity.zip
+  artifactKey: Guid(26105219244bb734f8bd8721566e9594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-unity.zip using Guid(26105219244bb734f8bd8721566e9594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee697426f0bedfcbd3126cb0634d3c5') in 0.003700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.668733 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture
+  artifactKey: Guid(b00287cc3506e8643bffaa01ced66c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture using Guid(b00287cc3506e8643bffaa01ced66c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f10c61bf91fb7833838717fb153133') in 0.000729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.853219 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Materials
+  artifactKey: Guid(d365b809516b91947ad091652874cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Materials using Guid(d365b809516b91947ad091652874cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1427e4b26b532e4b3048595033c54c') in 0.000737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057363 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood1.mat
+  artifactKey: Guid(71e8951740b2a224480948e4515f6e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood1.mat using Guid(71e8951740b2a224480948e4515f6e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ce9fc2069e418ca5622b4c8148eede') in 0.058860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood3.mat
+  artifactKey: Guid(df52f4d0325777d49bbe6e566536e284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood3.mat using Guid(df52f4d0325777d49bbe6e566536e284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca37f097f9ddf7e3ced3ce97ff4888b') in 0.026422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.261921 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Textures/Wood2.tga
+  artifactKey: Guid(fa79f310fc4924e4cabca0791e343bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Textures/Wood2.tga using Guid(fa79f310fc4924e4cabca0791e343bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87362f0db03879827f91cf7c18279c1f') in 0.010245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 607.290310 seconds.
+  path: Assets/Materials/spotted-rust-bl/spotted-rust_albedo.png
+  artifactKey: Guid(fdc103cd8afc2b94aa28d1df724504a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/spotted-rust_albedo.png using Guid(fdc103cd8afc2b94aa28d1df724504a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f982d41d1bb214cd4d850f34185bc2d') in 0.010293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/spotted-rust-bl/spotted-rust_height.png
+  artifactKey: Guid(20691c72fb974eb4eadccf5264d9d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/spotted-rust_height.png using Guid(20691c72fb974eb4eadccf5264d9d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33955347a1c533c4ff21a7e5b3829231') in 0.006696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/spotted-rust-bl/spotted-rust_preview.jpg
+  artifactKey: Guid(29609b2aaae519448ad9acea0d503d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/spotted-rust_preview.jpg using Guid(29609b2aaae519448ad9acea0d503d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d0903e9e02d9557bd8437519533611') in 0.005425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/spotted-rust-bl/spotted-rust_normal-ogl.png
+  artifactKey: Guid(cabf75f95af23284faeb6c3f6f6cb19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/spotted-rust_normal-ogl.png using Guid(cabf75f95af23284faeb6c3f6f6cb19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5de2fc295f2c4a0528a9c97ae33db') in 0.016280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.711151 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood2.mat
+  artifactKey: Guid(3e3fe7d08624f594bb8e96487091bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Wood Texture/Materials/M_Wood2.mat using Guid(3e3fe7d08624f594bb8e96487091bd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49a4f32bdcccac16ff1accadf4d27da') in 0.005932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 691.911569 seconds.
+  path: Assets/Materials/spotted-rust-bl/Materials/spotted-rust_preview.mat
+  artifactKey: Guid(deb300e89cab3d041b62f6a3c61af459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/Materials/spotted-rust_preview.mat using Guid(deb300e89cab3d041b62f6a3c61af459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217529a4d42e5ca27f8a5a08933df170') in 0.005793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.903563 seconds.
+  path: Assets/Materials/spotted-rust-bl/MetalMaterial.mat
+  artifactKey: Guid(8524765c2983f994e8b62501d38ade51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/spotted-rust-bl/MetalMaterial.mat using Guid(8524765c2983f994e8b62501d38ade51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea7ad53b7ded0093322643c726dbffa') in 0.003829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.923514 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(14c2a4f12a23aeb4ebdbf3b6beab1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(14c2a4f12a23aeb4ebdbf3b6beab1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88f425d605230d54974d27f93917f98') in 0.000858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.702566 seconds.
+  path: Assets/Prefabs/Shield.prefab
+  artifactKey: Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shield.prefab using Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943ecb4441bb5268307b817f195918ae') in 0.028202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.459174 seconds.
+  path: Assets/Prefabs/Shield.prefab
+  artifactKey: Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shield.prefab using Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602006d9aeb1dbf6e0370f6f9df507ac') in 0.013834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.094987 seconds.
+  path: Assets/Prefabs/Shield.prefab
+  artifactKey: Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shield.prefab using Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989a57d6038e8d8d2bab91675300f203') in 0.013777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.489533 seconds.
+  path: Assets/Prefabs/Shield.prefab
+  artifactKey: Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shield.prefab using Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5347c3cfbd750202b0901e727804840e') in 0.014419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.970726 seconds.
+  path: Assets/Prefabs/Shield.prefab
+  artifactKey: Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shield.prefab using Guid(4385478cc61f24146aceb67d94c31277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23774e0683a8aaace5cae41d8b508744') in 0.012842 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001881 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (467ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (146ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3295 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (109.4 KB). Loaded Objects now: 3834.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 2.158400 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.075800 ms MarkObjects: 1.779100 ms  DeleteObjects: 0.081100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
