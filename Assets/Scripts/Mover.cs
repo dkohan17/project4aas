@@ -178,8 +178,8 @@ public class Mover : MonoBehaviour
 
         else if (grounded && Input.GetKey(sprintKey))
         {
-            state = MovementState.sprinting;
-            desiredMoveSpeed = sprintSpeed;
+                state = MovementState.sprinting;
+                desiredMoveSpeed = sprintSpeed;
         }
 
         else if (grounded)
