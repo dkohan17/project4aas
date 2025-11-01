@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit IoTEnterpriseS' Language: 'ru' Physical Memory: 32361 MB
+OS: 'Windows 11  (10.0.26100) 64bit IoTEnterpriseS' Language: 'uk' Physical Memory: 32361 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\Unity Hub\2021.3.22f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Valerius/Documents/GitHub/project4aas
+F:/Unity/project4aas
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53348
-Successfully changed project path to: C:/Users/Valerius/Documents/GitHub/project4aas
-C:/Users/Valerius/Documents/GitHub/project4aas
+60194
+Successfully changed project path to: F:/Unity/project4aas
+F:/Unity/project4aas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/Valerius/Documents/GitHub/project4aas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5028] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4177530914 [EditorId] 4177530914 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20808] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1611491963 [EditorId] 1611491963 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5028] Host "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 4177530914 [EditorId] 4177530914 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20808] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1611491963 [EditorId] 1611491963 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 48.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
-[Subsystems] Discovering subsystems at path E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Valerius/Documents/GitHub/project4aas/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/project4aas/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -64,40 +64,40 @@ Direct3D:
     VRAM:     12115 MB
     Driver:   32.0.15.6094
 Initialize mono
-Mono path[0] = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/Unity Hub/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001122 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002440 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 48.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.342 seconds
+- Completed reload, in  0.351 seconds
 Domain Reload Profiling:
-	ReloadAssembly (343ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (352ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
 		EndReloadAssembly (247ms)
-			LoadAssemblies (45ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (56ms)
+			SetupTypeCache (59ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (148ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (145ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,51 +105,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001486 seconds.
+Registered in 0.001450 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Valerius\Documents\GitHub\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.501 seconds
+- Completed reload, in  0.520 seconds
 Domain Reload Profiling:
-	ReloadAssembly (502ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (520ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (381ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (392ms)
 			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (181ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (186ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (40ms)
-				ProcessInitializeOnLoadAttributes (126ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (125ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3319 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (125.1 KB). Loaded Objects now: 3788.
-Memory consumption went from 120.6 MB to 120.5 MB.
-Total: 2.573700 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.168100 ms  DeleteObjects: 0.120400 ms)
+Unloading 23 unused Assets / (140.9 KB). Loaded Objects now: 3801.
+Memory consumption went from 132.3 MB to 132.1 MB.
+Total: 2.281500 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.893700 ms  DeleteObjects: 0.098200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,313 +163,269 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1025.311750 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(14c2a4f12a23aeb4ebdbf3b6beab1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(14c2a4f12a23aeb4ebdbf3b6beab1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091efcac9a2000fd8e2015f195269dcf') in 0.011269 seconds 
+  Time since last request: 1416832.892892 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/Tower B Variant.prefab
+  artifactKey: Guid(6b0f883a8be7ef0429cbfe02f3e1c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Tower B Variant.prefab using Guid(6b0f883a8be7ef0429cbfe02f3e1c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a9113402e8c6287d6f9a5fd35f7729') in 0.068239 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.575005 seconds.
-  path: Assets/Materials/іфаіва.mat
-  artifactKey: Guid(dd4008c0411d61740ac8a71dfa102289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/іфаіва.mat using Guid(dd4008c0411d61740ac8a71dfa102289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9258f83c63ad802aecbdcc7a9e06e937') in 0.081502 seconds 
+  Time since last request: 1282.644589 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Half.prefab
+  artifactKey: Guid(f489e2c85ddd7144bb958cf92746da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Half.prefab using Guid(f489e2c85ddd7144bb958cf92746da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaab841f299690611adf5f0c3f28880') in 0.138476 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.449780 seconds.
-  path: Assets/Materials/spotted-rust-bl/spotted-rust_albedo.png
-  artifactKey: Guid(fdc103cd8afc2b94aa28d1df724504a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/spotted-rust-bl/spotted-rust_albedo.png using Guid(fdc103cd8afc2b94aa28d1df724504a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eeb9b39e93a123f666a3dbeebf2af4') in 0.034516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Materials/spotted-rust-bl/spotted-rust_preview.jpg
-  artifactKey: Guid(29609b2aaae519448ad9acea0d503d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/spotted-rust-bl/spotted-rust_preview.jpg using Guid(29609b2aaae519448ad9acea0d503d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6a5b242954037018b28d1068e1f4f1') in 0.007195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/spotted-rust-bl/spotted-rust_metallic.png
-  artifactKey: Guid(3e5844afd1052944e8a805081211df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/spotted-rust-bl/spotted-rust_metallic.png using Guid(3e5844afd1052944e8a805081211df4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca84adc3efa47151f4a1f33b28addb9') in 0.005826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/spotted-rust-bl/spotted-rust_ao.png
-  artifactKey: Guid(a37d0a14f47531a4ba5c30c919b99e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/spotted-rust-bl/spotted-rust_ao.png using Guid(a37d0a14f47531a4ba5c30c919b99e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a207df758961d3251a36350c3b452b71') in 0.005479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2125.549922 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png
-  artifactKey: Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ok.png using Guid(3238dca1e9ea9fb4aa64b28298ba6dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68754bc5eb9eb031c00d2737758a968') in 0.020334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/secondarytabclose.png
-  artifactKey: Guid(03cefa94d5aa9d74993fb2138af9d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/secondarytabclose.png using Guid(03cefa94d5aa9d74993fb2138af9d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754394eb90f13b6c304dbd0895001c4') in 0.007492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.481842 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png
-  artifactKey: Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png using Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2043a31f415b916fd3998ef96565687b') in 0.011445 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.079615 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
-  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c44f60f1a97ddea34842eeb991414e') in 0.004656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.655144 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png
-  artifactKey: Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/loading@2x.png using Guid(5dbc069eb79bd4d43840847264d6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7da70cf4cf0d7476cdf007cd6cc7221') in 0.010650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.948828 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png
-  artifactKey: Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/ignoredoverlay@2x.png using Guid(999d04c0ea94ccc41b3d80788160695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4073503881e4441a7a30c5811061429d') in 0.011315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011640 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconundo@2x.png
-  artifactKey: Guid(0dfbb2b6ddcdd254da80e3418498b3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconundo@2x.png using Guid(0dfbb2b6ddcdd254da80e3418498b3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120e1b1b3d80e80757320c8b976d35ec') in 0.005032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044486 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png
-  artifactKey: Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconrepository.png using Guid(ed64f3a17f2ede646be21ed6edc9161a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8213232180a4ae475d19e4d24ecd40') in 0.004845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.334102 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png
-  artifactKey: Guid(94fe868620119564f9474f40cd6145aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconpressedclosebutton.png using Guid(94fe868620119564f9474f40cd6145aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb9ed881da283057b0085a8df8a3aa9') in 0.011331 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014203 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview.png
-  artifactKey: Guid(dcb2ee37925b97e438ae244996d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticview.png using Guid(dcb2ee37925b97e438ae244996d81a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c957cf44179c45dd09e013956c9a41d') in 0.005012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009303 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming.png
-  artifactKey: Guid(1e6c9635b80f973488d8335a081c905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming.png using Guid(1e6c9635b80f973488d8335a081c905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499b5e840e26d35e24e417abed6c99f0') in 0.006750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.322124 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png
-  artifactKey: Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png using Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0b0effe100c986b9e278c29edc968a') in 0.004783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018165 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png
-  artifactKey: Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsyncoverlay@2x.png using Guid(3728580c149181a44b359e89f6edacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fc2adf0c330adb9ee24d70da9764fb') in 0.006106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006978 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png
-  artifactKey: Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconoutofsync.png using Guid(636d03a8834e3ed4cac3a1cb4b82deaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2ae0b9b8bc2ea40021bce637178396') in 0.006019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010763 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmergelink.png
-  artifactKey: Guid(120bf54dff785a0429b068b814e9c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconmergelink.png using Guid(120bf54dff785a0429b068b814e9c12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4460294292342899d741f00c70f2a03') in 0.005103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.326450 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay@2x.png
-  artifactKey: Guid(b528c1b33a65cf94ea74f830b54c9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconlockedlocaloverlay@2x.png using Guid(b528c1b33a65cf94ea74f830b54c9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66654d4fd28f21dcc793c620132fe3d1') in 0.011446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022119 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png
-  artifactKey: Guid(91976e8b9ce0f0341838727acd55621c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconemptygravatar.png using Guid(91976e8b9ce0f0341838727acd55621c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d3773ebc128401258b5b9bdf959c26') in 0.005746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014124 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremote@2x.png
-  artifactKey: Guid(70e3ce8ad01f39248a3ea97a35bcf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedremote@2x.png using Guid(70e3ce8ad01f39248a3ea97a35bcf238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00c9198c207d8e8b95e7b432f3c3a2d') in 0.006955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.037324 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedlocaloverlay@2x.png
-  artifactKey: Guid(a3e491f99ea3ad74f8731ca93e84c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeletedlocaloverlay@2x.png using Guid(a3e491f99ea3ad74f8731ca93e84c497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a0c3b40b0e1d0c2ae893c4d0cd90ae') in 0.016320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png
-  artifactKey: Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictresolvedoverlay@2x.png using Guid(309b1d5a294fd6c43ae9cf77656c1852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5786b161665bb7c669b5bf0c6231a6') in 0.007554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png
-  artifactKey: Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png using Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d21bd7bf1086c0ff8d41509035b9c69') in 0.024318 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png
-  artifactKey: Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png using Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f4158d1f038cec0e8b95a36363af68') in 0.015943 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End Mirror.prefab
+  artifactKey: Guid(4382bb7e987d7a04791ec22af2be8ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End Mirror.prefab using Guid(4382bb7e987d7a04791ec22af2be8ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f88236729adf44b65e39cbcf401ef') in 0.007479 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png
-  artifactKey: Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_stepok.png using Guid(be423a54b981d38428de82ad12534629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74099abc33184d0d3c8a69c279119b41') in 0.016058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step2.png
-  artifactKey: Guid(897c3a3f5c4038345a7143573bbb4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step2.png using Guid(897c3a3f5c4038345a7143573bbb4a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84af0fb93dae0a1da89bc2fd93b9ef8c') in 0.010856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png
-  artifactKey: Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png using Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04a48e77d825e9c4de4e50e58a011b6') in 0.015450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png
-  artifactKey: Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconprivateoverlay.png using Guid(059fb5367594a3343814dc25ace454b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9945d9ed6c31c0ef3d7941e99e0d7c') in 0.015299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png
-  artifactKey: Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png using Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef2288fc0070d948d341bec69c6480b') in 0.013527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png
-  artifactKey: Guid(3168140d6f409d0448447f18568d9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticview@2x.png using Guid(3168140d6f409d0448447f18568d9482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383d37a700f0319c76534af063bae042') in 0.014471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay@2x.png
-  artifactKey: Guid(2cfbf6619eb047545a425e8a31732c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedremoteoverlay@2x.png using Guid(2cfbf6619eb047545a425e8a31732c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a19bcbf107cfda198f39a97f5c839b') in 0.007347 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End.prefab
+  artifactKey: Guid(0bfb40ead124edf48b92fff66e5fc7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End.prefab using Guid(0bfb40ead124edf48b92fff66e5fc7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d0a840c1a78d561dd6abd60ad88f78') in 0.009949 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png
-  artifactKey: Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_ignoredoverlay.png using Guid(0f5597de928ba6547895c4cdb9fa4185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66146f2515e8b6c05a1ca1cbcf7c6daf') in 0.004303 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner 2.prefab
+  artifactKey: Guid(7f61c9f892d55f94ca95f470e5c69627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner 2.prefab using Guid(7f61c9f892d55f94ca95f470e5c69627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66dd28ca969045f20d8971b774fc059') in 0.007238 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png
-  artifactKey: Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png using Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e197229825f02ac91540f9ec19980d6') in 0.004550 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End.prefab
+  artifactKey: Guid(4ecdf013450b1a34da9b2608d89eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End.prefab using Guid(4ecdf013450b1a34da9b2608d89eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c176758a293c193aa54a327996dab74') in 0.006163 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png
-  artifactKey: Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay.png using Guid(1046ed65e6aaffb4391378f6d08d6c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24a5fc8c358c4bc1e6ff462150f5ca8') in 0.004202 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png
-  artifactKey: Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflicted.png using Guid(881798b77426a8f47b533dcc4767e9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0377208fd42f1b161cab6b53a82fe5') in 0.004301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png
-  artifactKey: Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal.png using Guid(9a1ab8af8c446204e989a90f18305caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86303e5dfbd27b5c64dcd9a7f243aec5') in 0.004230 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor Half.prefab
+  artifactKey: Guid(e70e1bf3d457cc44ca1858f8ea3cda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor Half.prefab using Guid(e70e1bf3d457cc44ca1858f8ea3cda88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e080e38536cef8d5ef3dc9a31845d66') in 0.007042 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay@2x.png
-  artifactKey: Guid(8d98ab6168c3e91439339f1908b8fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay@2x.png using Guid(8d98ab6168c3e91439339f1908b8fe97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd212b749bd890a0662a49e199d11362a') in 0.004300 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam.prefab
+  artifactKey: Guid(8a3768a4b905a134b842f29840eb8600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam.prefab using Guid(8a3768a4b905a134b842f29840eb8600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e16a3643fc65c40c34f0b5fa36aee0f') in 0.006340 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo@2x.png
-  artifactKey: Guid(6d6088174bb906b49ad8428526ee337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconundo@2x.png using Guid(6d6088174bb906b49ad8428526ee337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5712a7892d9e9c39d69c73a4d8c2b64d') in 0.004324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png
-  artifactKey: Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconcheckedoutlocaloverlay.png using Guid(bb1928aff4fd4cf44af1f629dc14ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed16199f4d5a50adf9653fd2f3be1b08') in 0.004250 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner.prefab
+  artifactKey: Guid(035c487ce0d0ed34c8add7b48b9b4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner.prefab using Guid(035c487ce0d0ed34c8add7b48b9b4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd003521833aa03fc7123adf238f44ba7') in 0.007047 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png
-  artifactKey: Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconaddedoverlay@2x.png using Guid(a6fbd5a181bc51e42a61a73fe8d727c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c64f026f9502b73805a0f43e66f3fc') in 0.006056 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner 2.prefab
+  artifactKey: Guid(b37e797974058a043b735643311aeab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner 2.prefab using Guid(b37e797974058a043b735643311aeab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7091f20d9ef52ea68e36bda6adc0ca9') in 0.007227 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclose.png
-  artifactKey: Guid(6975ee4c1f40caf4da8dd733ee2cfeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclose.png using Guid(6975ee4c1f40caf4da8dd733ee2cfeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a5ac459a7ed4262ae85987c60760f0') in 0.004979 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 1.prefab
+  artifactKey: Guid(a891d3b1acb215147a3842895dccd5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 1.prefab using Guid(a891d3b1acb215147a3842895dccd5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dfa2d47f6700d7fc99643ea6f8b3c5') in 0.006226 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay@2x.png
-  artifactKey: Guid(2bb4e96f5d0b02c468932d665a015c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconlockedremoteoverlay@2x.png using Guid(2bb4e96f5d0b02c468932d665a015c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9c939ff9cf9039f29c4a8adb51923b') in 0.004706 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner.prefab
+  artifactKey: Guid(63b4776fec377d841a2fff1a1e5a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner.prefab using Guid(63b4776fec377d841a2fff1a1e5a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafb39c2f3192ad4d9bc4d9ba51396a6') in 0.007313 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconbranch@2x.png
-  artifactKey: Guid(e45389a8a97044d4caf408f252370632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconbranch@2x.png using Guid(e45389a8a97044d4caf408f252370632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13ffcdbff49d8fb67f08f86b9c84282') in 0.004785 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End Mirror.prefab
+  artifactKey: Guid(8573c37fe1b220948b65c8e78b07df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End Mirror.prefab using Guid(8573c37fe1b220948b65c8e78b07df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef0bc37fff2c9d75938cf8a7333a110') in 0.006188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png
-  artifactKey: Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail@2x.png using Guid(144aa74618b85974a9a50f612c2fa8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0dee19a06e93a01b8ca82f25f513fd') in 0.006136 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor Square.prefab
+  artifactKey: Guid(ac6bed6f622710d46ae39348d24e6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor Square.prefab using Guid(ac6bed6f622710d46ae39348d24e6581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5fb8822ed51a4a12aa6e6eae8f6fe9') in 0.006397 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png
-  artifactKey: Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_step1@2x.png using Guid(c8a69ecdf54ac8e4b873466605de27ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e225e050e07fe8c239acffef66a781') in 0.005513 seconds 
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End.prefab
+  artifactKey: Guid(e11af604d435b4948a9016173ef12658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End.prefab using Guid(e11af604d435b4948a9016173ef12658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1822fb891efe7cc825dc8fda446c1f9') in 0.006968 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png
-  artifactKey: Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_buttonssosigninemail.png using Guid(3086d66a563317b40a20a20da2c64ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2716cc2f3620860c03c9eec722b1eb7f') in 0.005102 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical In.prefab
+  artifactKey: Guid(6b4f7892938a6364e8ce645865120b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical In.prefab using Guid(6b4f7892938a6364e8ce645865120b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3813ba172dcb436249a98f3ddf87cf4') in 0.007213 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover.png
-  artifactKey: Guid(6a9d211bea1bc4a429d86cbb2d0b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover.png using Guid(6a9d211bea1bc4a429d86cbb2d0b0a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301040f86598c0d1738b013438bfad4f') in 0.004828 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stone Wall 2.prefab
+  artifactKey: Guid(68d28e1b915868c41ac9b014dce48136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stone Wall 2.prefab using Guid(68d28e1b915868c41ac9b014dce48136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2959a4af23ee4b312f2b31eae53edbc') in 0.007212 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png
-  artifactKey: Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/buttonssosigningoogle.png using Guid(f09eae8c0ea04254b90c5386a034a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa042baf532c6e4c207e09ebd69cb989') in 0.004578 seconds 
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner 2.prefab
+  artifactKey: Guid(eef03d319fff0e246ae67c4d3932e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner 2.prefab using Guid(eef03d319fff0e246ae67c4d3932e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5650e82edd26de20f07ad6e08ba6ce9') in 0.006801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Small Inside.prefab
+  artifactKey: Guid(b7618c8526b8e9549bb278ef23c8bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Small Inside.prefab using Guid(b7618c8526b8e9549bb278ef23c8bc0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e346103f7abf67bbd236d6ec1f3d84') in 0.006513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical.prefab
+  artifactKey: Guid(943c98d6b1925c94dba183155c2a81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical.prefab using Guid(943c98d6b1925c94dba183155c2a81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22299819f12951995b273438b8575048') in 0.006839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner Small.prefab
+  artifactKey: Guid(6adb8415aa1282d49992e991a376d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner Small.prefab using Guid(6adb8415aa1282d49992e991a376d77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81218e8d05644c9d1528d451bc1160f8') in 0.008081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Wall.prefab
+  artifactKey: Guid(97886c9f703b03f42a0d9fe963f20f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Wall.prefab using Guid(97886c9f703b03f42a0d9fe963f20f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2af22cabedcd7b906b6527bb9e464c') in 0.006520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 1.prefab
+  artifactKey: Guid(0c38d5d10aa52644ba19d807da4e31d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 1.prefab using Guid(0c38d5d10aa52644ba19d807da4e31d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90323c68415148ef71c78825cd2f30f0') in 0.006552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half.prefab
+  artifactKey: Guid(79e371fd9bfdcd9489d4fda01be2f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half.prefab using Guid(79e371fd9bfdcd9489d4fda01be2f14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c950e18a43b384f27b866c8dd62486f') in 0.005718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End.prefab
+  artifactKey: Guid(46596978a1971214abbb42807efdaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End.prefab using Guid(46596978a1971214abbb42807efdaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7692d9c7a0e7d13c7a1c45cdc2f79ab8') in 0.006124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Stone.prefab
+  artifactKey: Guid(3238507894e90d34aad8370d82421a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Stone.prefab using Guid(3238507894e90d34aad8370d82421a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81c0d9651f65cdd7b804e65d54d238d') in 0.006993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner Mirror.prefab
+  artifactKey: Guid(fc027a29513013042a864481ce5099ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner Mirror.prefab using Guid(fc027a29513013042a864481ce5099ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f245f9a6b6ed317bf66a7a34ed4b911') in 0.006559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube.prefab
+  artifactKey: Guid(8052238261030f04283249e0541b5a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube.prefab using Guid(8052238261030f04283249e0541b5a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a09990e1b7b2c1b8217155a2aa142e') in 0.007637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Corner.prefab
+  artifactKey: Guid(30c0da99349e8c4408a17981c759d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Corner.prefab using Guid(30c0da99349e8c4408a17981c759d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc226a684f87a81160aa7cb2ace4cc9') in 0.006980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stairs.prefab
+  artifactKey: Guid(65a3c073333b0df4d8fa70e8315c8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stairs.prefab using Guid(65a3c073333b0df4d8fa70e8315c8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5076f84d1e278eceb96c27f2370b204') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Wall Half.prefab
+  artifactKey: Guid(6c82a574ec851f34e8e4476d1397c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Wall Half.prefab using Guid(6c82a574ec851f34e8e4476d1397c1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3313a1ac5e04a279deafc64b026461a7') in 0.006803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner Mirror.prefab
+  artifactKey: Guid(1b8e907fcb7e3894784f6d4ee30f59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner Mirror.prefab using Guid(1b8e907fcb7e3894784f6d4ee30f59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03feb5a6059765799821e6bc4fe24332') in 0.005961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall In.prefab
+  artifactKey: Guid(fedae7ff35385df469845afc611ffe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall In.prefab using Guid(fedae7ff35385df469845afc611ffe0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b407ae6e00464d3dc45ce2ab216c4083') in 0.007053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 2.prefab
+  artifactKey: Guid(afe143eb7e018bd4faa4eee780ef2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 2.prefab using Guid(afe143eb7e018bd4faa4eee780ef2c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057add6c22885786060324ccf6e3ec75') in 0.006758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 3.prefab
+  artifactKey: Guid(ddefd5c6f3ea8b04ca7e90b63ba492d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Wall 3.prefab using Guid(ddefd5c6f3ea8b04ca7e90b63ba492d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd22986bf9d6f4c7dc227cde3721ead') in 0.007422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Flue.prefab
+  artifactKey: Guid(4c9ed76763d7b364195dc3de0422f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Flue.prefab using Guid(4c9ed76763d7b364195dc3de0422f7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b1ce58a5a7129bb6f1c1ad62bcefa7') in 0.006350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Gate.prefab
+  artifactKey: Guid(53955d11d1008ba428fcc2661b3c1177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Gate.prefab using Guid(53955d11d1008ba428fcc2661b3c1177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3523cd6096de86b3775f5e96de33936') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical Roof Side.prefab
+  artifactKey: Guid(6902dd999db8b5045b64517e77819670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical Roof Side.prefab using Guid(6902dd999db8b5045b64517e77819670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d6d309dc8cbae099c92336e5f9fae5') in 0.006276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 1 Small.prefab
+  artifactKey: Guid(822822e6f05790946a8b9ac7b909b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 1 Small.prefab using Guid(822822e6f05790946a8b9ac7b909b702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499b1074cf5c9f6c1a49b396ee10d19c') in 0.005918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Inside.prefab
+  artifactKey: Guid(7eaf56d5073c56e48b10f8a06f54b921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Inside.prefab using Guid(7eaf56d5073c56e48b10f8a06f54b921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571f1f17368751a23ce09f1c20deb7a') in 0.006991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stone Wall 1.prefab
+  artifactKey: Guid(62731775fb960924f9e0b6be4eba3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stone Wall 1.prefab using Guid(62731775fb960924f9e0b6be4eba3b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99038049bfc878e6c9c09b0156982224') in 0.006390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Stick.prefab
+  artifactKey: Guid(9b3a545052434a24487eff6db2c51ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Stick.prefab using Guid(9b3a545052434a24487eff6db2c51ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb92f4f71a1f96968f817734f7ed4cb6') in 0.005876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner.prefab
+  artifactKey: Guid(64c2089d5d918734e96886d6e637a8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner.prefab using Guid(64c2089d5d918734e96886d6e637a8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d72a5dc75b73041bd22d34e578756d') in 0.142292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.714885 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/House C.prefab
+  artifactKey: Guid(6e64657bcc8e0c94591f7e0a23976fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/House C.prefab using Guid(6e64657bcc8e0c94591f7e0a23976fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5b147ea8fcbdf82a30203d44d3f7d') in 0.371343 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

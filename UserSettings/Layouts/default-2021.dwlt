@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1037
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 33
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 431
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 103
+  controlID: 19
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 104
+  controlID: 20
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 1826
     height: 732
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c262c1329a02fa49b5cb4c297106f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 129, y: 28}
+  m_MinSize: {x: 133, y: 30}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: ProBuilder
@@ -408,7 +408,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3314
+  m_LastSelectedObjectID: -66136
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -460,14 +460,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Valerius\Documents\GitHub\project4aas
+  m_LastProjectPath: F:\Unity\project4aas
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 565b0000
-    m_LastClickedID: 23382
-    m_ExpandedIDs: 000000004e5b0000505b0000525b0000545b0000565b00006c5b0000ec5b000000ca9a3b
+    m_SelectedIDs: aa5b0000
+    m_LastClickedID: 23466
+    m_ExpandedIDs: 00000000a25b0000a45b0000a65b0000a85b0000aa5b0000ec5b00003e5c00008283000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004e5b0000505b0000525b0000545b0000565b0000
+    m_ExpandedIDs: 00000000a25b0000a45b0000a65b0000a85b0000aa5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -627,9 +627,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d2c70000
       m_LastClickedID: 0
-      m_ExpandedIDs: beb3ffffa8ccffffb8ccffff22e0ffff48e0ffff36fbffff
+      m_ExpandedIDs: 34f9feff34fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -913,9 +913,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 879.84296, y: 555.7991, z: -1206.2799}
+    m_Target: {x: 93.11534, y: 63.824905, z: 193.05939}
     speed: 2
-    m_Value: {x: 879.84296, y: 555.7991, z: -1206.2799}
+    m_Value: {x: 93.11534, y: 63.824905, z: 193.05939}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -962,13 +962,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.01722907, y: 0.05996474, z: -0.0075758756, w: -0.99487144}
+    m_Target: {x: -0.27531445, y: -0.579049, z: 0.21053497, w: -0.73324746}
     speed: 2
-    m_Value: {x: -0.01579758, y: 0.058668017, z: -0.007486954, w: -0.9981244}
+    m_Value: {x: -0.27595583, y: -0.58216816, z: 0.21168219, w: -0.7349281}
   m_Size:
-    m_Target: 0.92558116
+    m_Target: 1.6233617
     speed: 2
-    m_Value: 0.92558116
+    m_Value: 1.6233617
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1110,7 +1110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 805
-    width: 2158
+    width: 2128
     height: 234
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
