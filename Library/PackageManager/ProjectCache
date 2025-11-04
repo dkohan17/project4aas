@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638960530609119605
+      ticks: 638976175097791762
     m_Hash: 2373069424
   m_LockFileStatus:
     m_FilePath: F:/Unity/project4aas/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638960530609129641
+      ticks: 638976175097791762
     m_Hash: 4225358969
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -127,6 +127,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     compatible:
     - 2.0.1
     - 2.0.3
@@ -151,6 +152,7 @@ m_ResolvedPackages:
     - 2.9.2
     - 2.9.3
     - 2.10.0
+    - 2.10.1
     verified: 2.0.7
   dependencies: []
   resolvedDependencies: []
