@@ -15,7 +15,7 @@ F:/Unity/project4aas
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56617
+61228
 Successfully changed project path to: F:/Unity/project4aas
 F:/Unity/project4aas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Unity/project4aas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10996] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 399207199 [EditorId] 399207199 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15984] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 38280124 [EditorId] 38280124 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10996] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 399207199 [EditorId] 399207199 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15984] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 38280124 [EditorId] 38280124 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 48.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001963 seconds.
+Registered in 0.001985 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.338 seconds
+- Completed reload, in  0.340 seconds
 Domain Reload Profiling:
-	ReloadAssembly (338ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (341ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (246ms)
-			LoadAssemblies (40ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (249ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (59ms)
+			SetupTypeCache (56ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (146ms)
+			RebuildScriptCaches (13ms)
+			SetupLoadedEditorAssemblies (152ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001411 seconds.
+Registered in 0.001417 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.524 seconds
+- Completed reload, in  0.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (525ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (522ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (405ms)
-			LoadAssemblies (39ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (189ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (185ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (126.6 KB). Loaded Objects now: 3864.
+Unloading 23 unused Assets / (125.9 KB). Loaded Objects now: 3864.
 Memory consumption went from 156.0 MB to 155.9 MB.
-Total: 3.326500 ms (FindLiveObjects: 0.441200 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.645600 ms  DeleteObjects: 0.155500 ms)
+Total: 2.322500 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.078100 ms MarkObjects: 1.838500 ms  DeleteObjects: 0.164200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,83 +163,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36207.736941 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(976d8799ab9d62c40ad13aa6a5096ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(976d8799ab9d62c40ad13aa6a5096ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f44d669e11648ac2155ca963562fb') in 0.027662 seconds 
+  Time since last request: 73096.049918 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground1
+  artifactKey: Guid(d6db3c86dcaf2034d8af878e5005965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground1 using Guid(d6db3c86dcaf2034d8af878e5005965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b58a9d999977aba82ebb169d99bc6e2') in 0.005906 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1479.252155 seconds.
-  path: Assets/Advance Studios
-  artifactKey: Guid(91f45fa6f3e7b2a419adae32c5a65a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios using Guid(91f45fa6f3e7b2a419adae32c5a65a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7294b2b57e320d6f0575345da623fb61') in 0.000738 seconds 
+  Time since last request: 3.601893 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground2
+  artifactKey: Guid(6d36834a15e9dba4dbd2723d88aa2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground2 using Guid(6d36834a15e9dba4dbd2723d88aa2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0384d2168061db140c107a711cd86c1') in 0.000739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.924250 seconds.
-  path: Assets/Advance Studios/Medieval Castle
-  artifactKey: Guid(cf2933b77e16a624ba1f59eb0b0f01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle using Guid(cf2933b77e16a624ba1f59eb0b0f01ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534428a9cbdfc887617b9d315a0e10fa') in 0.000599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.999338 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs
-  artifactKey: Guid(afeaf5107b73ee84c9a6e0cc8519a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs using Guid(afeaf5107b73ee84c9a6e0cc8519a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1caa5f7f0cbf3a9ddb36018fa9b8e4d') in 0.000643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.089209 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Large.prefab
-  artifactKey: Guid(0e8152fe58379e843be49840febab4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Large.prefab using Guid(0e8152fe58379e843be49840febab4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd244045f790953de19fc1433cab70aa0') in 0.056219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/House B.prefab
-  artifactKey: Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/House B.prefab using Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635559043aad06386adf09e2b8150cb7') in 0.009147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/Tower A.prefab
-  artifactKey: Guid(0b0315988d4640f4f8028117c16b74e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Tower A.prefab using Guid(0b0315988d4640f4f8028117c16b74e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429d2b8b2d6aa9e608d2dacac05397ec') in 0.007034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/Castle.prefab
-  artifactKey: Guid(afe06cfa5721b824792de9e11596626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Castle.prefab using Guid(afe06cfa5721b824792de9e11596626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac59c6917500fd0d7c7a6c2093ccb695') in 0.008311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge.prefab
-  artifactKey: Guid(aef0c05ee60182c40b56f85304a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Bridge.prefab using Guid(aef0c05ee60182c40b56f85304a84027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc52e43e3558dbacadb4f6be7e04d6e') in 0.008784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/Wall.prefab
-  artifactKey: Guid(4f6122b02aea27540b60ee221b7415e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Wall.prefab using Guid(4f6122b02aea27540b60ee221b7415e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01076efac4271f4646f6494b2769bedd') in 0.007320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Advance Studios/Medieval Castle/Prefabs/House A.prefab
-  artifactKey: Guid(57ef16ee7712da6409e8836bf6001e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Advance Studios/Medieval Castle/Prefabs/House A.prefab using Guid(57ef16ee7712da6409e8836bf6001e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a8aed7486acb77cdfabb0a6654d518') in 0.008396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 286.986338 seconds.
-  path: Assets/Medival Housus - Modular Part Low Poly/Houses/House B.prefab
-  artifactKey: Guid(6e69cd36777afed4ea10f82958ae0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/House B.prefab using Guid(6e69cd36777afed4ea10f82958ae0dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4aa6a03f320be4dc06c7a9b8235eb4') in 0.145539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Medival Housus - Modular Part Low Poly/Houses/House C.prefab
-  artifactKey: Guid(6e64657bcc8e0c94591f7e0a23976fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/House C.prefab using Guid(6e64657bcc8e0c94591f7e0a23976fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893ec5f55becad7f412edf2b3b3c105e') in 0.159328 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 8.479502 seconds.
+  path: Assets/ADG_Textures/Demo
+  artifactKey: Guid(5a235ccdf0c45644d94f7a44dc14ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/Demo using Guid(5a235ccdf0c45644d94f7a44dc14ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df6572dfe2f7fed6566287de8d1abc8') in 0.000819 seconds 
