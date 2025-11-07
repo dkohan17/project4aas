@@ -1,0 +1,395 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit IoTEnterpriseS' Language: 'uk' Physical Memory: 32361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+F:/Unity/project4aas
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50183
+Successfully changed project path to: F:/Unity/project4aas
+F:/Unity/project4aas
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7648] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3625052547 [EditorId] 3625052547 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7648] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3625052547 [EditorId] 3625052547 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 50.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/project4aas/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002290 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (346ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (249ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (145ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (485ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (174ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (133.6 KB). Loaded Objects now: 3865.
+Memory consumption went from 156.1 MB to 156.0 MB.
+Total: 2.116300 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.055700 ms MarkObjects: 1.804000 ms  DeleteObjects: 0.091200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97172.663235 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Beam Corner.mat
+  artifactKey: Guid(921d167663ad842448105aa3c1576c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Beam Corner.mat using Guid(921d167663ad842448105aa3c1576c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f9cfe48d424520c4036973f216dc80') in 0.087373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof.mat
+  artifactKey: Guid(75c17869afeb01841bfee1a9e8683594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof.mat using Guid(75c17869afeb01841bfee1a9e8683594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759481ca5de0025719448283487c40fa') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Glass.mat
+  artifactKey: Guid(4802a9459b2872c4b93e04add7a92157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Glass.mat using Guid(4802a9459b2872c4b93e04add7a92157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646e27e40c217797014df1bebf16745f') in 0.007994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End Corner.mat
+  artifactKey: Guid(b93fc1496740b2745975d2d173364085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End Corner.mat using Guid(b93fc1496740b2745975d2d173364085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b141ea600d182e32605e4326066a6df') in 0.011244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical.mat
+  artifactKey: Guid(bb984a865e36c174898bd49892a22ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical.mat using Guid(bb984a865e36c174898bd49892a22ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1826aaedc4b931ea8cf843c712b347d') in 0.013437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End.mat
+  artifactKey: Guid(b3c8912bd10808b4181607aa374f8484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End.mat using Guid(b3c8912bd10808b4181607aa374f8484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de3b9fa7a79aa8ed0b75a3045098277') in 0.011749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Stairs.mat
+  artifactKey: Guid(0635edf8b8316484f88ab9b418f6035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Stairs.mat using Guid(0635edf8b8316484f88ab9b418f6035a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f5501aa2f4e073acdbdc3cbcb46201') in 0.006852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner.mat
+  artifactKey: Guid(aeea03c91c19f784cb90416bac256e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner.mat using Guid(aeea03c91c19f784cb90416bac256e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e71e4f18bc8794206dface6f6df77e') in 0.006616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle End Mirror.mat
+  artifactKey: Guid(9be4bfcb300fe964882caee98e9e77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle End Mirror.mat using Guid(9be4bfcb300fe964882caee98e9e77d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2dee91d8f5fb724db5eb47eb14aca0') in 0.009957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical Roof Side.mat
+  artifactKey: Guid(167cc11d845e84d4891bed7d6147eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical Roof Side.mat using Guid(167cc11d845e84d4891bed7d6147eae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2974a5d59162fef595a7354bea7fa8a1') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Wall Half.mat
+  artifactKey: Guid(ab4e578dac8318a4ea50a0f28d541e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Wall Half.mat using Guid(ab4e578dac8318a4ea50a0f28d541e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3d9ab84eb57627d980e846b64e2c1e') in 0.008688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half Vertical End Corner Mirror.mat
+  artifactKey: Guid(39c51d44d64da5749897f9bb503c3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half Vertical End Corner Mirror.mat using Guid(39c51d44d64da5749897f9bb503c3c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049e3a20841365612db075a5217739ff') in 0.009476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical In.mat
+  artifactKey: Guid(5c8d19d4c9387cd43922b29789529a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Half Wall Vertical In.mat using Guid(5c8d19d4c9387cd43922b29789529a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4657c8ff7ce92b1adbbfd33a15372d5b') in 0.010557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Window 1.mat
+  artifactKey: Guid(438ccddb5d54ef740b3594628e3aa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Window 1.mat using Guid(438ccddb5d54ef740b3594628e3aa88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a1018fcf97053dd25ffb029174aa5f') in 0.010867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Roof Side.mat
+  artifactKey: Guid(5e867fd73ed03af47b82b2dea26d0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Roof Side.mat using Guid(5e867fd73ed03af47b82b2dea26d0f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c69bbd361ccda499c9bef9a8c7c39df') in 0.006516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End Corner 2.mat
+  artifactKey: Guid(82c5e0a25470fb941b6e8003e3d5639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End Corner 2.mat using Guid(82c5e0a25470fb941b6e8003e3d5639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff6107666cf5839e9c0d5a6a0acd35d') in 0.007214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Stone Wall 2.mat
+  artifactKey: Guid(bc9f5f3d1f27a794e86a092cc64c11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Stone Wall 2.mat using Guid(bc9f5f3d1f27a794e86a092cc64c11b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9c97a8c736770bf75fac7d4a5a729d') in 0.007165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Stairs 2.mat
+  artifactKey: Guid(f92d71e3e3278f448af9b54a9c156ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Stairs 2.mat using Guid(f92d71e3e3278f448af9b54a9c156ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7bedbaaca72149c61f650019284f441') in 0.006786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle End.mat
+  artifactKey: Guid(e7bf4e9765d8cc349961015eddc06e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle End.mat using Guid(e7bf4e9765d8cc349961015eddc06e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31612e812faf23c4fe1091425ef3bdd0') in 0.006539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner Mirror.mat
+  artifactKey: Guid(52b0cdeb08dcbd642902cee63d1b18d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner Mirror.mat using Guid(52b0cdeb08dcbd642902cee63d1b18d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c46a8e8508a3211b31d6a7c26d476a') in 0.006965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Corner Small.mat
+  artifactKey: Guid(f3d47ad2e293bdd4d8df626ee1d698c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Corner Small.mat using Guid(f3d47ad2e293bdd4d8df626ee1d698c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61256111126a75aa6824af4621905543') in 0.007056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Floor Half.mat
+  artifactKey: Guid(401c59b49aeef6349b573010fc9f14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Floor Half.mat using Guid(401c59b49aeef6349b573010fc9f14e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a32fff0fb87a2f1bd272dc0609ffd8') in 0.006826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Floor.mat
+  artifactKey: Guid(48fc7f31f789ca54b8ff8e5276829d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Floor.mat using Guid(48fc7f31f789ca54b8ff8e5276829d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fb3a217dc2e7981952460e13d1e062') in 0.006524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle Small End Mirror.mat
+  artifactKey: Guid(d496e592adbcc4b43b5ea818e5f2823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle Small End Mirror.mat using Guid(d496e592adbcc4b43b5ea818e5f2823e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0490ca0cf0e5d87410ed64c705d6111b') in 0.006670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End Corner Mirror.mat
+  artifactKey: Guid(be635274cdd2b0748ad9e933fe890a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof End Corner Mirror.mat using Guid(be635274cdd2b0748ad9e933fe890a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9ad3a2254be4b962648e0f02c0f109') in 0.007102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Door.mat
+  artifactKey: Guid(61783652aeab3a1489a1edcd9065df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Door.mat using Guid(61783652aeab3a1489a1edcd9065df58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b3616886ba734483a6cc531a78385e') in 0.006580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End Corner Mirror.mat
+  artifactKey: Guid(ccb5451f18bb80b49ba3fd48c62b2f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End Corner Mirror.mat using Guid(ccb5451f18bb80b49ba3fd48c62b2f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d811bdfb9e3d81909f73df7b7cfc4c9') in 0.007476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Corner.mat
+  artifactKey: Guid(a94b37b7ed546d24a8466a40cb575bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Corner.mat using Guid(a94b37b7ed546d24a8466a40cb575bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3effac359e3b131656caaa9c73468113') in 0.008484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half Vertical 1.mat
+  artifactKey: Guid(f09c58d8af6a8104bbae00da1dd92091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half Vertical 1.mat using Guid(f09c58d8af6a8104bbae00da1dd92091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29419a616eb0735a7b76cb8ca2faa7b') in 0.023879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Window 2.mat
+  artifactKey: Guid(b0d82a26e4ae7044b962bc2ea64decdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Wall Window 2.mat using Guid(b0d82a26e4ae7044b962bc2ea64decdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b772ecb31c603d5fcb5157c468db0ed') in 0.005665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Window.mat
+  artifactKey: Guid(a96949bb6260bc94a908244108d9027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Window.mat using Guid(a96949bb6260bc94a908244108d9027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e662b317cd200bd33983bb6a9b28a50a') in 0.005838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner 2.mat
+  artifactKey: Guid(92146fc8d68a5f644942399f312907fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End Corner 2.mat using Guid(92146fc8d68a5f644942399f312907fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de488190314d8e867e15e5f24aed28f') in 0.006605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle Small End.mat
+  artifactKey: Guid(132bf8e7b85533e4db9e02f8d522081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Triangle Small End.mat using Guid(132bf8e7b85533e4db9e02f8d522081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70c88c6bbfc550b88aaa39c286b6c08') in 0.006131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End.mat
+  artifactKey: Guid(2d953100bb4917b428fd7d3e83fd6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Half End.mat using Guid(2d953100bb4917b428fd7d3e83fd6486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcf8796cf596cac091e5c495b78d3cb') in 0.006507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End.mat
+  artifactKey: Guid(f1be4c57a1e75714f8e2712794f8a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Materials/Roof Cube End.mat using Guid(f1be4c57a1e75714f8e2712794f8a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc13b94af056ef5e5dc983cf57129645') in 0.006263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 303.412982 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Normal.png
+  artifactKey: Guid(e06f161c2626b314fb6afaed763288c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Normal.png using Guid(e06f161c2626b314fb6afaed763288c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b50768d65793eba45f2892fe2c8f5d1') in 0.012900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Roughn.png
+  artifactKey: Guid(96b2219eaeb343e4b9cbbb88a0216a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Roughn.png using Guid(96b2219eaeb343e4b9cbbb88a0216a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e1f64f2a9256f8f57e669c7c28f7a4') in 0.006581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.007_Bake1_PBR_Diffus.png
+  artifactKey: Guid(e10ac93607a93f7468110cf0dfda7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.007_Bake1_PBR_Diffus.png using Guid(e10ac93607a93f7468110cf0dfda7186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608a4fc6ce05e16263e7cc377c3c15a1') in 0.007419 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,409 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit IoTEnterpriseS' Language: 'uk' Physical Memory: 32361 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+F:/Unity/project4aas
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50183
+Successfully changed project path to: F:/Unity/project4aas
+F:/Unity/project4aas
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19676] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 306359577 [EditorId] 306359577 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19676] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 306359577 [EditorId] 306359577 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 58.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/project4aas/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002261 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.353 seconds
+Domain Reload Profiling:
+	ReloadAssembly (353ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (238ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (58ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001158 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.478 seconds
+Domain Reload Profiling:
+	ReloadAssembly (478ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (109ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (133.6 KB). Loaded Objects now: 3865.
+Memory consumption went from 156.1 MB to 155.9 MB.
+Total: 2.409700 ms (FindLiveObjects: 0.203600 ms CreateObjectMapping: 0.053200 ms MarkObjects: 2.059600 ms  DeleteObjects: 0.092900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 97193.740741 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx
+  artifactKey: Guid(b4e3445733b60e44193a3b7d81c4f991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx using Guid(b4e3445733b60e44193a3b7d81c4f991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b44b9efde419c980a8b4c625fb981ad') in 0.005864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.920856 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/source
+  artifactKey: Guid(48a8cba6153512e4e8301b425e5f0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/source using Guid(48a8cba6153512e4e8301b425e5f0649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53a9e56ba2b7ca02639a5cb306a2801') in 0.000778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044170 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/source/Medieval market stalls.fbx
+  artifactKey: Guid(88bb1cd62237af84ba25a5b55d0aa83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/source/Medieval market stalls.fbx using Guid(88bb1cd62237af84ba25a5b55d0aa83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e8bfdc9025232955539bb7f53c2687') in 0.139654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 274.645492 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures
+  artifactKey: Guid(057c92b9794cb464ea261e075bc22d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures using Guid(057c92b9794cb464ea261e075bc22d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6b1090b3a572cc588aec438fec1ded') in 0.000949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075118 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Diffus.png
+  artifactKey: Guid(7728ddfe70c42ad419be71eea788e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Diffus.png using Guid(7728ddfe70c42ad419be71eea788e2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508b462eaa7503ccc28b39ab48a00476') in 0.013268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.006_Bake1_PBR_Diffus.png
+  artifactKey: Guid(9c7c4c0feb29e314f9f56f02d12c2458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.006_Bake1_PBR_Diffus.png using Guid(9c7c4c0feb29e314f9f56f02d12c2458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ecb69ea13ea6205afbb6509ab55c77') in 0.007930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.009_Bake1_PBR_Diffus.png
+  artifactKey: Guid(bbd2c318001779447bc778de5de7a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.009_Bake1_PBR_Diffus.png using Guid(bbd2c318001779447bc778de5de7a7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e171ea4397c9eeb73f8be04c423ac98b') in 0.006739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 599.565524 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Base_color_1001.png
+  artifactKey: Guid(57f18ffce47920249be01cf82b87c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Base_color_1001.png using Guid(57f18ffce47920249be01cf82b87c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15d8fdac9d609e8062c66e3fb72a101') in 0.022496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Normal_OpenGL_1001.png
+  artifactKey: Guid(ddae4594432e1ca42b7bf1c691d02474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Normal_OpenGL_1001.png using Guid(ddae4594432e1ca42b7bf1c691d02474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d4fbb24b541ac5edc6ab27dc9e026') in 0.018057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Mixed_AO_1001.png
+  artifactKey: Guid(fcdb1bc87bb7e3743ab37707bc9e1ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/Doska_Mixed_AO_1001.png using Guid(fcdb1bc87bb7e3743ab37707bc9e1ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65609c5a146b0d415e445c9ef5d2c94') in 0.026453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.062229 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/source/Doska_low.fbx
+  artifactKey: Guid(289705f2c0fa95c4ba4e672e75ad08d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/source/Doska_low.fbx using Guid(289705f2c0fa95c4ba4e672e75ad08d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef141bbce0885e27ae77cf09e2212a2') in 0.006089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.988645 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures
+  artifactKey: Guid(b8966afc813258d4eae48b8f59afd28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures using Guid(b8966afc813258d4eae48b8f59afd28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a711c60650cee3164b557eb73822ccb5') in 0.000733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.606722 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat
+  artifactKey: Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat using Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45edcdc3278684c9ba4a9a4800aca3df') in 0.005435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.240956 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/source
+  artifactKey: Guid(a6864cc6d818f4e458c5a472c5560200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/source using Guid(a6864cc6d818f4e458c5a472c5560200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e1f130abb2626a7c43ce01a9c5e890') in 0.000720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1002.689948 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx
+  artifactKey: Guid(9f8cadbb818927a45ac433be06405ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx using Guid(9f8cadbb818927a45ac433be06405ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42574c3064f7897847bf445d8c6f1e4') in 0.000938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120934 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source
+  artifactKey: Guid(eebae6062b947dc4aa1f03e62d4a13dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source using Guid(eebae6062b947dc4aa1f03e62d4a13dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57dbc3ebc01b22c39a490189768be089') in 0.000916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.285797 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar.rar
+  artifactKey: Guid(1f2011ff552b3cf48ae2ecaec4088e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar.rar using Guid(1f2011ff552b3cf48ae2ecaec4088e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3d0dab87a7bbd55c2b44df241861c6') in 0.002697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.945010 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures
+  artifactKey: Guid(aad35e0de4ef8f1409666e9f0f3439c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures using Guid(aad35e0de4ef8f1409666e9f0f3439c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62563cac598f0951b65a168b7d774d03') in 0.000701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051247 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_A.png
+  artifactKey: Guid(b108c3798ce90e341a0a3b4c0e75c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_A.png using Guid(b108c3798ce90e341a0a3b4c0e75c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7217e0da739943a7c497a328e0e9131') in 0.010387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_S.png
+  artifactKey: Guid(98ea7ada88419594fb06d9528baa29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_S.png using Guid(98ea7ada88419594fb06d9528baa29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d59be3614f9411b3d59042082e6651') in 0.032005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.151368 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar
+  artifactKey: Guid(2ef687ba0385de9448aa871ff8b7f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar using Guid(2ef687ba0385de9448aa871ff8b7f4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558f019b88014aa019bf078430c6d323') in 0.000852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053699 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar/Barrel.FBX
+  artifactKey: Guid(8a8c83e9f6384954d8aa95d67a077fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar/Barrel.FBX using Guid(8a8c83e9f6384954d8aa95d67a077fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c74afa1baba265494f0e3a534da8ee') in 0.007809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar/Barrel_N.png
+  artifactKey: Guid(78db57ce5d1d58a48a7c8528c48ea3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/source/da6f0196d67f4947976d308829ef69a6.rar/Barrel_N.png using Guid(78db57ce5d1d58a48a7c8528c48ea3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5b644e1c242682d5e1c13a59f826f7') in 0.004423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.967065 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/BarrelMaterial.mat
+  artifactKey: Guid(9fee2296168623f429108e02a4f88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/BarrelMaterial.mat using Guid(9fee2296168623f429108e02a4f88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb43e5be20bebd97a9de6ee71305a7f8') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.790710 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx
+  artifactKey: Guid(cc5567a4fcf98df4bb65b765f97d13da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx using Guid(cc5567a4fcf98df4bb65b765f97d13da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8df715f6cbc02844e1469479641dec5') in 0.000707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.309510 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab
+  artifactKey: Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab using Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2e319e1c3e795ab92797af498018b') in 0.013153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.203772 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/Barrel.prefab
+  artifactKey: Guid(b0f4156d15e645342aa8fade8cf891e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/Barrel.prefab using Guid(b0f4156d15e645342aa8fade8cf891e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0c5f90cefcd9f536ef874cd7818003') in 0.007299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 347.233913 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/Telega 2.prefab
+  artifactKey: Guid(e274431ef5abc504d872411f01714910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/Telega 2.prefab using Guid(e274431ef5abc504d872411f01714910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a43eba50ede1dff92868caef555d2c') in 0.011845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.221918 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab
+  artifactKey: Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab using Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d126f703852e3776fff4eaea225b2') in 0.011855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.735573 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat
+  artifactKey: Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat using Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3b22eef35edb0a073555837e24e58b') in 0.010182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.291152 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat
+  artifactKey: Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/textures/BoardMaterial.mat using Guid(c1cc83bfb90b92e40a7bd5c9fe01672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd204226a928c5a2f4dbed88a42e3b7a9') in 0.008490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.973788 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab
+  artifactKey: Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Notice board fbx/Doska_low.prefab using Guid(426dffe063299fe4fb16ea72e44f1bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db030c29770b6b6769d8aa3c081341f2') in 0.008784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.174076 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/Barrel.prefab
+  artifactKey: Guid(b0f4156d15e645342aa8fade8cf891e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/Barrel.prefab using Guid(b0f4156d15e645342aa8fade8cf891e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89057f3f00a039c57bba4c2b183b74') in 0.023067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400637 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/BarrelMaterial.mat
+  artifactKey: Guid(9fee2296168623f429108e02a4f88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/BarrelMaterial.mat using Guid(9fee2296168623f429108e02a4f88ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3271a5fa5b37f07ad8e6762bf05b94') in 0.008192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.595779 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_N.png
+  artifactKey: Guid(fe3009cab8d93a4408c77d7004585559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_N.png using Guid(fe3009cab8d93a4408c77d7004585559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b603d9097e527ec068336f11d1f28edf') in 0.013317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.124398 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/textures/CartMaterial.mat
+  artifactKey: Guid(e1ac4a0f53be5c744a8cf8402375a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/textures/CartMaterial.mat using Guid(e1ac4a0f53be5c744a8cf8402375a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d53088966a045f48147fef3081bb0e4') in 0.010025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.396197 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/textures/CartMaterial.mat
+  artifactKey: Guid(e1ac4a0f53be5c744a8cf8402375a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/textures/CartMaterial.mat using Guid(e1ac4a0f53be5c744a8cf8402375a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8ce608ef5a9fc3f91dd1ec36db74d0') in 0.008605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.349183 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/Telega 2.prefab
+  artifactKey: Guid(e274431ef5abc504d872411f01714910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval cart fbx/Telega 2.prefab using Guid(e274431ef5abc504d872411f01714910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffd0f9f1a7aabb1af86b4e31af5b05a') in 0.007501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.909380 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Normal.png
+  artifactKey: Guid(e06f161c2626b314fb6afaed763288c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/Market_Stall_low-poly.001_Bake1_PBR_Normal.png using Guid(e06f161c2626b314fb6afaed763288c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5fa1d19096b233eae99d23a655789e') in 0.009780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.168664 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/MarketMaterial.mat
+  artifactKey: Guid(780f3209a91e8ac4a92f8f0c8263168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/MarketMaterial.mat using Guid(780f3209a91e8ac4a92f8f0c8263168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc87154eb526836da6e76e70ad88333') in 0.004105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.980418 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/MarketMaterial.mat
+  artifactKey: Guid(780f3209a91e8ac4a92f8f0c8263168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Medieval market fbx/textures/MarketMaterial.mat using Guid(780f3209a91e8ac4a92f8f0c8263168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f051cb92d677517b55b459391834aa') in 0.007148 seconds 

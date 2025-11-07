@@ -15,7 +15,7 @@ F:/Unity/project4aas
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61228
+50183
 Successfully changed project path to: F:/Unity/project4aas
 F:/Unity/project4aas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Unity/project4aas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13872] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1094586073 [EditorId] 1094586073 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14572] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1055876972 [EditorId] 1055876972 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13872] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 1094586073 [EditorId] 1094586073 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14572] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1055876972 [EditorId] 1055876972 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 49.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,76 +67,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001932 seconds.
+Registered in 0.001833 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.342 seconds
+- Completed reload, in  0.357 seconds
 Domain Reload Profiling:
-	ReloadAssembly (342ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (357ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (247ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (263ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (54ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (153ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001174 seconds.
+Registered in 0.001396 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.522 seconds
+- Completed reload, in  0.582 seconds
 Domain Reload Profiling:
-	ReloadAssembly (522ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (398ms)
-			LoadAssemblies (43ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (188ms)
+			SetupTypeCache (135ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (125ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (140ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (3ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (125.9 KB). Loaded Objects now: 3864.
+Unloading 23 unused Assets / (125.8 KB). Loaded Objects now: 3864.
 Memory consumption went from 156.0 MB to 155.9 MB.
-Total: 2.665200 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.199500 ms  DeleteObjects: 0.116100 ms)
+Total: 2.133800 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.807300 ms  DeleteObjects: 0.089000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,13 +163,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 73094.725367 seconds.
-  path: Assets/ADG_Textures
-  artifactKey: Guid(d0ba5c52e24f7b1469250c824ca0bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADG_Textures using Guid(d0ba5c52e24f7b1469250c824ca0bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3145743c063d5d671e12645f6d260255') in 0.005958 seconds 
+  Time since last request: 94767.640092 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Half.prefab
+  artifactKey: Guid(f489e2c85ddd7144bb958cf92746da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Beam Half.prefab using Guid(f489e2c85ddd7144bb958cf92746da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d36ca2c0fd28ce5d64eeaecb64e4eb') in 0.302402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor.prefab
+  artifactKey: Guid(801ad9bdc68cbb0489afe57540ec81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Floor.prefab using Guid(801ad9bdc68cbb0489afe57540ec81e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2326c8d5cd5606fb6d739ee5deba98') in 0.008154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 1.prefab
+  artifactKey: Guid(a891d3b1acb215147a3842895dccd5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 1.prefab using Guid(a891d3b1acb215147a3842895dccd5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22d2f837361f8e5047aa5088d7b148') in 0.018600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 2.prefab
+  artifactKey: Guid(10d241d231f356548980d6667e176c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall 2.prefab using Guid(10d241d231f356548980d6667e176c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52989613f0fc458b6510bcb0214edc51') in 0.031056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Stone.prefab
+  artifactKey: Guid(3238507894e90d34aad8370d82421a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Stone.prefab using Guid(3238507894e90d34aad8370d82421a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe13c4d9988cb138f421b096ddb9a3df') in 0.019599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Roof Side.prefab
+  artifactKey: Guid(a7052ae45060e7140a74acdc43615404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Roof Side.prefab using Guid(a7052ae45060e7140a74acdc43615404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b5ff34129915df953bddb3b2ae837e') in 0.755121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube End Corner Mirror.prefab
+  artifactKey: Guid(29a243b5a4ef56b43a8f7d1f3113810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube End Corner Mirror.prefab using Guid(29a243b5a4ef56b43a8f7d1f3113810b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07524e593ac87ed2917eb5927fa0e098') in 0.328938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner Mirror.prefab
+  artifactKey: Guid(fc027a29513013042a864481ce5099ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner Mirror.prefab using Guid(fc027a29513013042a864481ce5099ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929fad9456da651846b827bf1ce6277d') in 0.016493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube End Corner.prefab
+  artifactKey: Guid(643792d9b6b528a42b4daf987e698d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Cube End Corner.prefab using Guid(643792d9b6b528a42b4daf987e698d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b156b559899bb7e01aaafa41b56de7') in 0.646463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner Mirror.prefab
+  artifactKey: Guid(1b8e907fcb7e3894784f6d4ee30f59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner Mirror.prefab using Guid(1b8e907fcb7e3894784f6d4ee30f59db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7914a40f7d4020279bcf666efba43667') in 0.363810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner.prefab
+  artifactKey: Guid(a5f110fde958a064988b496e6bbff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical End Corner.prefab using Guid(a5f110fde958a064988b496e6bbff9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20363622160ba771c3ddb97d7e37c53') in 0.744059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner 2 Small.prefab
+  artifactKey: Guid(38f6a7ae8a62f844d8d7f4885cff4264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Corner 2 Small.prefab using Guid(38f6a7ae8a62f844d8d7f4885cff4264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51620e8e689eea01410d86bb52d2da2e') in 0.005749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner 2.prefab
+  artifactKey: Guid(d8d26b882ae8ff148b2c206dcf298261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof End Corner 2.prefab using Guid(d8d26b882ae8ff148b2c206dcf298261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4aab2548db9685a3528f07322c5f2') in 0.505421 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/ADG_Textures/ground_vol1
-  artifactKey: Guid(9eb13a93352b493479873e849c02d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADG_Textures/ground_vol1 using Guid(9eb13a93352b493479873e849c02d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa38b5d404281a35fde8c6c42eec5e7') in 0.000663 seconds 
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End.prefab
+  artifactKey: Guid(4ecdf013450b1a34da9b2608d89eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle Small End.prefab using Guid(4ecdf013450b1a34da9b2608d89eb90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd374544ddea01b22f9cbecb6a7287a') in 0.006951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Window.prefab
+  artifactKey: Guid(8b9338082e1cd4c428f25c6464711c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Window.prefab using Guid(8b9338082e1cd4c428f25c6464711c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a9404a972759de12d682f647da80e0') in 0.209435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stairs.prefab
+  artifactKey: Guid(65a3c073333b0df4d8fa70e8315c8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Stairs.prefab using Guid(65a3c073333b0df4d8fa70e8315c8026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452c10b54f517438d58430448d5b4f6f') in 0.028138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End.prefab
+  artifactKey: Guid(e11af604d435b4948a9016173ef12658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle End.prefab using Guid(e11af604d435b4948a9016173ef12658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2052ceb683720f7640876ef61cb4ff69') in 0.008279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical In.prefab
+  artifactKey: Guid(6b4f7892938a6364e8ce645865120b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical In.prefab using Guid(6b4f7892938a6364e8ce645865120b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd081c2ee98b7658e48bd19399886c4f') in 0.006933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical.prefab
+  artifactKey: Guid(3e2abf363e42da54f9c27f4b5b0e6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Half Wall Vertical.prefab using Guid(3e2abf363e42da54f9c27f4b5b0e6a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e395c8fce1b13254b11157b59a44c204') in 0.006447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Inside.prefab
+  artifactKey: Guid(7eaf56d5073c56e48b10f8a06f54b921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Triangle 2 Inside.prefab using Guid(7eaf56d5073c56e48b10f8a06f54b921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7aafab8c77c486cc4828c596dc151e') in 0.483358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner 2.prefab
+  artifactKey: Guid(eef03d319fff0e246ae67c4d3932e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half End Corner 2.prefab using Guid(eef03d319fff0e246ae67c4d3932e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b576cf7754eee0c62c4daf9e209fc542') in 0.848796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical.prefab
+  artifactKey: Guid(943c98d6b1925c94dba183155c2a81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Prefabs File/Roof Half Vertical.prefab using Guid(943c98d6b1925c94dba183155c2a81b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65953bf624cba1238feaffbdf8ada99') in 0.262505 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
