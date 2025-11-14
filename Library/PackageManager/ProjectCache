@@ -128,6 +128,7 @@ m_ResolvedPackages:
     - 2.9.3
     - 2.10.0
     - 2.10.1
+    - 2.10.2
     compatible:
     - 2.0.1
     - 2.0.3
@@ -153,6 +154,7 @@ m_ResolvedPackages:
     - 2.9.3
     - 2.10.0
     - 2.10.1
+    - 2.10.2
     verified: 2.0.7
   dependencies: []
   resolvedDependencies: []
