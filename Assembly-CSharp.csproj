@@ -136,7 +136,6 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling_301.cginc" />
-    <None Include="Assets\Hand Painted Seamless Wood Texture\Documentation\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

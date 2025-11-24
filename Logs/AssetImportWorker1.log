@@ -15,7 +15,7 @@ F:/Unity/project4aas
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55965
+60365
 Successfully changed project path to: F:/Unity/project4aas
 F:/Unity/project4aas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Unity/project4aas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15580] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1313242702 [EditorId] 1313242702 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5256] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1635626860 [EditorId] 1635626860 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15580] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1313242702 [EditorId] 1313242702 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5256] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1635626860 [EditorId] 1635626860 [Version] 1048832 [Id] WindowsEditor(7,KOMPUTER) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 52.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 174.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.22f1 (b6c551784ba3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002174 seconds.
+Registered in 0.003399 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.348 seconds
+- Completed reload, in  0.438 seconds
 Domain Reload Profiling:
-	ReloadAssembly (348ms)
-		BeginReloadAssembly (45ms)
+	ReloadAssembly (438ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (249ms)
-			LoadAssemblies (44ms)
+		EndReloadAssembly (308ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (59ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (147ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
+				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (65ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001399 seconds.
+Registered in 0.126415 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Unity\project4aas\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.496 seconds
+- Completed reload, in  2.842 seconds
 Domain Reload Profiling:
-	ReloadAssembly (497ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (2843ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (373ms)
-			LoadAssemblies (41ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (2630ms)
+			LoadAssemblies (943ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (113ms)
+			SetupTypeCache (161ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (1472ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (1403ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -143,13 +143,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (133.7 KB). Loaded Objects now: 3865.
-Memory consumption went from 156.0 MB to 155.9 MB.
-Total: 2.592800 ms (FindLiveObjects: 0.228600 ms CreateObjectMapping: 0.075700 ms MarkObjects: 2.185900 ms  DeleteObjects: 0.102200 ms)
+Unloading 23 unused Assets / (133.6 KB). Loaded Objects now: 3865.
+Memory consumption went from 156.1 MB to 155.9 MB.
+Total: 3.050400 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.514300 ms  DeleteObjects: 0.138400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,59 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 368698.171801 seconds.
-  path: Assets/ADG_Textures
-  artifactKey: Guid(d0ba5c52e24f7b1469250c824ca0bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADG_Textures using Guid(d0ba5c52e24f7b1469250c824ca0bc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a60ee6a7e667f1ccdae4e6817c698b0') in 0.005873 seconds 
+  Time since last request: 14477.871597 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddcf21335bb43ff767a8983aa696556') in 0.204903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2456a3c1e6c413d40f13a804c4f4248') in 0.121294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_N.png
+  artifactKey: Guid(fe3009cab8d93a4408c77d7004585559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medival Housus - Modular Part Low Poly/Houses/Barrel fbx/textures/Barrel_N.png using Guid(fe3009cab8d93a4408c77d7004585559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfb4bbcb4816ed92e696667eae116a0') in 0.193878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png
+  artifactKey: Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png using Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576f7d1ea6d1e3e0aaa3fcac23f4b066') in 0.051817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
+  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d7f74e11a7347f02ab3ada225dc06e') in 0.089311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.778910 seconds.
+  path: Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Normal] [AO] [Specular].asset
+  artifactKey: Guid(14f4181ca612e43c9b344f073e03a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Shared Sources/Textures/BODT Conifer Bark Array [Normal] [AO] [Specular].asset using Guid(14f4181ca612e43c9b344f073e03a7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79348af4e0f8943eb2ad10548ada811e') in 1.672476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.726648 seconds.
+  path: Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Medium LOD0.asset
+  artifactKey: Guid(8edab6f6d01b34b44bc0dc2a7ff8ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Medium LOD0.asset using Guid(8edab6f6d01b34b44bc0dc2a7ff8ea7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48913f3543d249ce0e993c2c7f5f1b4f') in 0.219371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Tall LOD0.asset
+  artifactKey: Guid(92c53119942ac4923b00037455001238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Shared Sources/Meshes/SM Conifer Tall LOD0.asset using Guid(92c53119942ac4923b00037455001238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67111343fd77ee6c1940181c63471f19') in 0.147661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.032860 seconds.
+  path: Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
+  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b27b13e2b7e8688e936a92bfcd7b488') in 1.208814 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
