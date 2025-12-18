@@ -64,7 +64,7 @@ public class ShieldBlockScript : MonoBehaviour
         }
 
         if (anim) anim.SetTrigger("BlockStopped");
-        Debug.Log("BlockStopped");
+        
 
         StartCoroutine(BlockCooldown());
     }

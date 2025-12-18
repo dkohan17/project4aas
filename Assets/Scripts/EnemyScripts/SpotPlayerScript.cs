@@ -29,6 +29,13 @@ public class SpotPlayerScript : MonoBehaviour
     {
         if (spotted)
         {
+            Vector3 direction = (Player.position - transform.position).normalized;
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            Enemy.rotation = Quaternion.Lerp(
+                    Enemy.rotation,
+                    targetRotation,
+                    rotationSpeed * Time.deltaTime
+                );
             Enemy.position = Vector3.MoveTowards(
                 Enemy.position,
                 Player.position,

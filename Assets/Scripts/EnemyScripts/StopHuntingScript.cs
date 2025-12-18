@@ -11,6 +11,9 @@ public class StopHuntingScript : MonoBehaviour
     public WalkEnemyScript WalkEnemyScript;
     public SpotPlayerScript SpotPlayerScript;
 
+    //Data
+    public bool isTriggered = false;
+
 
     private void Start()
     {
@@ -19,10 +22,19 @@ public class StopHuntingScript : MonoBehaviour
         SpotPlayerScript = Enemy.GetComponentInChildren<SpotPlayerScript>();
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isTriggered = true;
+        }
+    }
+
     public void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            isTriggered = false;
             SpotPlayerScript.spotted = false;
             WalkEnemyScript.enabled = true;
         }

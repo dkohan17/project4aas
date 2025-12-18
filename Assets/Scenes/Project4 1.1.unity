@@ -317,6 +317,125 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55535291}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &62705899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 62705900}
+  - component: {fileID: 62705904}
+  - component: {fileID: 62705903}
+  - component: {fileID: 62705902}
+  - component: {fileID: 62705901}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Sword
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62705900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62705899}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.58862305, y: 0.17799997, z: 0.6462817}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 572833708}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!95 &62705901
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62705899}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ebb5c0d6c82bc754b9f0acecae6fb610, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &62705902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62705899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.24804656, y: 1.1003969, z: 0.21482198}
+  m_Center: {x: -0.01687336, y: 0.34621096, z: 0.0040073395}
+--- !u!23 &62705903
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62705899}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d74c845b50fe2d143a78ac219b3efc08, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &62705904
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62705899}
+  m_Mesh: {fileID: -551951159149546143, guid: 9c9f65c1284b22247bafd1ebc8dbb632, type: 3}
 --- !u!1 &113691938
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2188,7 @@ GameObject:
   - component: {fileID: 572833709}
   - component: {fileID: 572833714}
   - component: {fileID: 572833713}
+  - component: {fileID: 572833715}
   m_Layer: 0
   m_Name: RedEnemy(1)
   m_TagString: Enemy
@@ -2088,6 +2208,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 62705900}
   - {fileID: 1202225846}
   - {fileID: 1245261946}
   - {fileID: 1350511377}
@@ -2212,6 +2333,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   State: Dead
+--- !u!114 &572833715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572833707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72548b510b5dd1c4bbe4beeb186c94f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyStateAliveOrDeadScript: {fileID: 0}
+  maxHP: 100
 --- !u!1 &575582801
 GameObject:
   m_ObjectHideFlags: 0
@@ -4907,6 +5042,7 @@ GameObject:
   - component: {fileID: 1202225849}
   - component: {fileID: 1202225848}
   - component: {fileID: 1202225847}
+  - component: {fileID: 1202225850}
   m_Layer: 0
   m_Name: AttackHitbox
   m_TagString: Untagged
@@ -4927,7 +5063,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 572833708}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1202225847
 BoxCollider:
@@ -4940,8 +5076,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.776619, y: 1.2737966, z: 1.7390575}
-  m_Center: {x: 0.07701111, y: 0.13689828, z: 0.36952877}
+  m_Size: {x: 1.776619, y: 1.2737966, z: 2.0404203}
+  m_Center: {x: 0.07701111, y: 0.13689828, z: 0.2188474}
 --- !u!23 &1202225848
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4992,6 +5128,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202225845}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1202225850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202225845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8f6dcdb23a45940b535a7f60bd318c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 9156347144451138348}
+  Sword: {fileID: 0}
+  PlayerScript: {fileID: 0}
+  isTriggered: 0
+  cd: 0
+  cdTime: 2
 --- !u!1 &1219734231
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,6 +5255,7 @@ GameObject:
   - component: {fileID: 1245261949}
   - component: {fileID: 1245261948}
   - component: {fileID: 1245261947}
+  - component: {fileID: 1245261950}
   m_Layer: 0
   m_Name: StopHitbox
   m_TagString: Untagged
@@ -5121,7 +5276,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 572833708}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1245261947
 BoxCollider:
@@ -5134,8 +5289,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0672302, y: 1.2737966, z: 0.5022955}
-  m_Center: {x: 0.023216248, y: 0.13689828, z: -0.24885225}
+  m_Size: {x: 1.4606934, y: 1.2737966, z: 1.7113173}
+  m_Center: {x: -0.032592773, y: 0.13689828, z: -0.85336316}
 --- !u!23 &1245261948
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5186,6 +5341,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245261945}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1245261950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245261945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce27487e0ede9d4f83994cab1a117d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemy: {fileID: 0}
+  SpotPlayerScript: {fileID: 0}
+  StopHuntingScript: {fileID: 0}
+  isTriggered: 0
 --- !u!1 &1264226483
 GameObject:
   m_ObjectHideFlags: 0
@@ -5510,7 +5681,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 572833708}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1304315823
 BoxCollider:
@@ -5523,8 +5694,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.780781, y: 2, z: 8.201154}
-  m_Center: {x: -0.01162529, y: 0, z: 2.7005105}
+  m_Size: {x: 6.780781, y: 2, z: 8.857732}
+  m_Center: {x: -0.01162529, y: 0, z: 2.3722215}
 --- !u!23 &1304315824
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6400,7 +6571,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 572833708}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1350511378
 BoxCollider:
@@ -6480,6 +6651,7 @@ MonoBehaviour:
   Enemy: {fileID: 0}
   WalkEnemyScript: {fileID: 0}
   SpotPlayerScript: {fileID: 0}
+  isTriggered: 0
 --- !u!1 &1362919902
 GameObject:
   m_ObjectHideFlags: 0
