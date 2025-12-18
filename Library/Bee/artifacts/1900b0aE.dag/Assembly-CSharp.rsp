@@ -352,6 +352,8 @@
 "Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/PlayerScriptableObject.cs"
+"Assets/Scripts/Shop/ShopTabs.cs"
+"Assets/Scripts/Shop/ShopTrigger.cs"
 "Assets/Scripts/SwordAttack.cs"
 "Assets/Scripts/TeleportTrigger.cs"
 "Assets/Scripts/WeaponStats.cs"
