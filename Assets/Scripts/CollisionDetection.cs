@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Drawing;
+=======
+>>>>>>> main
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
@@ -11,6 +14,7 @@ public class CollisionDetection : MonoBehaviour
     public GameObject HitParticle;
     public WeaponStats Stats;
     public bool db = false;
+<<<<<<< HEAD
     private BloodPool bloodPool;
 
     private void Awake()
@@ -55,6 +59,29 @@ public class CollisionDetection : MonoBehaviour
             {
                 bloodPool.GetBlood(hitPoint, lateral, other.transform);
             }
+=======
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        EnemyScript enemy = other.GetComponent<EnemyScript>();
+        if (other.tag == "Enemy" && SA.isAttacking && !db)
+        {
+            db = true;
+            Debug.Log(other.name);
+
+            Vector3 hitPoint = other.ClosestPoint(transform.position);
+
+            
+            GameObject hitEffect = Instantiate(
+                HitParticle,
+                hitPoint,
+                Quaternion.identity
+            );
+
+            hitEffect.transform.SetParent(other.transform);
+            enemy.SetHitEffect(hitEffect);
+>>>>>>> main
             enemy.TakeDamage(Stats.damage);
             StartCoroutine(ResetDb());
         }

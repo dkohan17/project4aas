@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Project4 1.1.unity
+=======
+- path: Assets/Project4.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0

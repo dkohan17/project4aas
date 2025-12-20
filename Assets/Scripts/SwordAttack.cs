@@ -5,6 +5,7 @@ using UnityEngine;
 public class SwordAttack : MonoBehaviour
 {
     public GameObject Sword;
+<<<<<<< HEAD
     public ShieldBlockScript SBS;
     public bool CanAttack = true;
     public float AttackCooldown = 2.0f;
@@ -38,11 +39,30 @@ public class SwordAttack : MonoBehaviour
         {
             isAttacking = false;
         }
+=======
+    public bool CanAttack = true;
+    public float AttackCooldown = 2.0f;
+    public bool isAttacking = false;
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (CanAttack)
+            {
+                Attack();
+            }
+        }
+>>>>>>> main
     }
 
 
     public void Attack()
     {
+<<<<<<< HEAD
+=======
+        isAttacking = true;
+>>>>>>> main
         CanAttack = false;
         Animator anim = Sword.GetComponent<Animator>();
         anim.SetTrigger("Attack");
@@ -51,11 +71,16 @@ public class SwordAttack : MonoBehaviour
 
     IEnumerator ResetAttackCooldown()
     {
+<<<<<<< HEAD
         StartCoroutine(WaitForDamage());
+=======
+        StartCoroutine(ResetAttackBool());
+>>>>>>> main
         yield return new WaitForSeconds(AttackCooldown);
         CanAttack = true;
     }
 
+<<<<<<< HEAD
     IEnumerator WaitForDamage()
     {
         yield return new WaitForSeconds(0.4f);
@@ -66,6 +91,11 @@ public class SwordAttack : MonoBehaviour
     IEnumerator ResetAttackBool()
     {
         yield return new WaitForSeconds(1.1f);
+=======
+    IEnumerator ResetAttackBool()
+    {
+        yield return new WaitForSeconds(1.5f);
+>>>>>>> main
         isAttacking = false;
     }
 
