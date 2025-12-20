@@ -43,7 +43,6 @@ public class SwordAttack : MonoBehaviour
 
     public void Attack()
     {
-        isAttacking = true;
         CanAttack = false;
         Animator anim = Sword.GetComponent<Animator>();
         anim.SetTrigger("Attack");
@@ -52,14 +51,21 @@ public class SwordAttack : MonoBehaviour
 
     IEnumerator ResetAttackCooldown()
     {
-        StartCoroutine(ResetAttackBool());
+        StartCoroutine(WaitForDamage());
         yield return new WaitForSeconds(AttackCooldown);
         CanAttack = true;
     }
 
+    IEnumerator WaitForDamage()
+    {
+        yield return new WaitForSeconds(0.4f);
+        isAttacking = true;
+        StartCoroutine(ResetAttackBool());
+    }
+
     IEnumerator ResetAttackBool()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.1f);
         isAttacking = false;
     }
 

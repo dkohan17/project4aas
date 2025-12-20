@@ -26,6 +26,12 @@ public class WalkEnemyScript : MonoBehaviour
     private bool isWaiting = false;
 
 
+    private void Start()
+    {
+        StateAliveOrDead = transform.GetComponent<EnemyStateAliveOrDeadScript>();
+    }
+
+
     private void Update()
     {
         if (StateAliveOrDead.GetState() == "Alive")

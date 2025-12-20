@@ -21,6 +21,12 @@ public class SpawnEnemyScript : MonoBehaviour
     //Floats
     public float cd;
 
+
+    private void Start()
+    {
+        StateAliveOrDead = transform.GetComponent<EnemyStateAliveOrDeadScript>();
+    }
+
     private void Update()
     {
         if (transform.parent == firstParent && spawnHitbox.bounds.Contains(player.position) == false && cd == 0 )
@@ -30,5 +36,21 @@ public class SpawnEnemyScript : MonoBehaviour
             transform.position = spawnPoint.position;
             Debug.Log("Spawn");
         }
+    }
+
+    public void Despawn()
+    {
+        cd = 10;
+        StateAliveOrDead.SetState("Dead");
+        transform.SetParent(firstParent);
+        transform.position = new Vector3(2.159912f, -6.513f, 0f);
+        StartCoroutine(ResetSpawnCD());
+        Debug.Log("Despawn");
+    }
+
+    IEnumerator ResetSpawnCD()
+    {
+        yield return new WaitForSeconds(cd);
+        cd = 0;
     }
 }

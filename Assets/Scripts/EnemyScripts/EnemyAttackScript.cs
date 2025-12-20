@@ -20,6 +20,7 @@ public class EnemyAttackScript : MonoBehaviour
     public bool isTriggered = false;
     public bool cd;
     public float cdTime;
+    public bool isAttacking = false;
 
 
     private void Start()
@@ -35,9 +36,10 @@ public class EnemyAttackScript : MonoBehaviour
         {
             Animator anim = Sword.GetComponent<Animator>();
             anim.SetTrigger("Attack");
+            isAttacking = true;
             cd = true;
             Debug.Log("Punch");
-            StartCoroutine(GiveDamage());
+            StartCoroutine(ResetCooldown());
         }
     }
 
@@ -54,17 +56,23 @@ public class EnemyAttackScript : MonoBehaviour
         isTriggered = false;
     }
 
-    IEnumerator GiveDamage()
-    {
-        yield return new WaitForSeconds(0.8f);
-        PlayerScript.TakeDamage(10);
-        StartCoroutine(ResetCooldown());
-    }
-
     IEnumerator ResetCooldown()
     {
+        StartCoroutine(WaitForDamage());
         yield return new WaitForSeconds(cdTime);
         cd = false;
     }
 
+    IEnumerator WaitForDamage()
+    {
+        yield return new WaitForSeconds(0.4f);
+        isAttacking = true;
+        StartCoroutine(ResetAttack());
+    }
+
+    IEnumerator ResetAttack()
+    {
+        yield return new WaitForSeconds(0.4f);
+        isAttacking = false;
+    }
 }

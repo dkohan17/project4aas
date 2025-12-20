@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
     //Scripts
-    public EnemyStateAliveOrDeadScript EnemyStateAliveOrDeadScript;
+    public SpawnEnemyScript SpawnEnemyScript;
 
 
     //Data
@@ -18,7 +18,7 @@ public class EnemyScript : MonoBehaviour
     private void Start()
     {
         currentHP = maxHP;
-        EnemyStateAliveOrDeadScript = transform.GetComponent<EnemyStateAliveOrDeadScript>();
+        SpawnEnemyScript = transform.GetComponent<SpawnEnemyScript>();
     }
 
     private void Awake()
@@ -63,6 +63,7 @@ public class EnemyScript : MonoBehaviour
             }
         }
 
+        SpawnEnemyScript.Despawn();
         Debug.Log($"{name} погиб!");
     }
 }
