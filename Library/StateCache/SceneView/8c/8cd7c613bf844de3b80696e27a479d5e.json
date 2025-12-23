@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":109.43761444091797,"y":4.05501651763916,"z":187.5292510986328},"rotation":{"x":-0.10132196545600891,"y":-0.2615797817707062,"z":0.0280779879540205,"w":-0.9596207141876221},"size":1.5353561639785767,"orthographic":false}
+=======
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":3112.93896484375,"y":-8.628726959228516,"z":-28.970245361328126},"rotation":{"x":-0.0028645151760429146,"y":-0.9749714732170105,"z":0.22192823886871339,"w":-0.012572543695569039},"size":15.287394523620606,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":752.7125854492188,"y":303.7197265625,"z":-713.6564331054688},"rotation":{"x":-0.0003056623099837452,"y":-0.017149781808257104,"z":0.0005843343678861857,"w":-1.0000228881835938},"size":6.339198589324951,"orthographic":false}
+>>>>>>> main
+>>>>>>> Attack-System

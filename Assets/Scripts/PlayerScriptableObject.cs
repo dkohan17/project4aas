@@ -6,11 +6,19 @@ using UnityEngine;
 
 public class PlayerScriptableObject : ScriptableObject
 {
+<<<<<<< HEAD
+    public int maxHealth;
+    public int health;
+
+    public int maxStamina;
+    public int stamina;
+=======
     private int maxHealth; //!!
     private int health; //!!
 
     private int maxStamina; //!!
     private int stamina; //!!
+>>>>>>> main
 
     public int Health
     {
