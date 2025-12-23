@@ -350,7 +350,6 @@
 "Assets/Scripts/CameraMoving.cs"
 "Assets/Scripts/CamFollow.cs"
 "Assets/Scripts/CollisionDetection.cs"
-"Assets/Scripts/DamageUpgrade.cs"
 "Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/EnemyScripts/EnemyAttackScript.cs"
 "Assets/Scripts/EnemyScripts/EnemyCollisionDetection.cs"

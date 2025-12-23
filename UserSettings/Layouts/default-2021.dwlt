@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1428
     height: 1021
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
+<<<<<<< HEAD
   controlID: 91
+=======
+  controlID: 114
+>>>>>>> parent of 3e69e1de (Nothing happened)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,11 +70,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1091
     y: 0
+<<<<<<< HEAD
     width: 337
     height: 971
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
+=======
+    width: 552
+    height: 987
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+>>>>>>> parent of 3e69e1de (Nothing happened)
   m_Panes:
   - {fileID: 13}
   m_Selected: 0
@@ -223,7 +235,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
+<<<<<<< HEAD
   controlID: 92
+=======
+  controlID: 104
+>>>>>>> parent of 3e69e1de (Nothing happened)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +264,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 93
+=======
+  controlID: 105
+>>>>>>> parent of 3e69e1de (Nothing happened)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,9 +352,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
+<<<<<<< HEAD
     m_SelectedIDs: 3ab80000
     m_LastClickedID: 47162
     m_ExpandedIDs: 000000003ab8000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 8ab00000
+    m_LastClickedID: 45194
+    m_ExpandedIDs: 0000000088b000008ab000008cb000008eb0000090b0000092b0000094b0000096b0000098b000009ab000009cb000009eb00000a0b00000a2b00000a4b00000a6b00000a8b00000aab00000acb00000e0b0000000ca9a3bffffff7f
+>>>>>>> parent of 3e69e1de (Nothing happened)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -362,7 +388,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 
+=======
+    m_ExpandedIDs: 0000000088b000008ab000008cb000008eb0000090b0000092b0000094b0000096b0000098b000009ab000009cb000009eb00000a0b00000a2b00000a4b00000a6b00000a8b00000aab00000acb00000
+>>>>>>> parent of 3e69e1de (Nothing happened)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,7 +526,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: a6b80000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 8289ffff5a8bffffc48bffff508cffff9e8cffff9a8dffffe48dffff2e8effff788effffde8effff4a8fffff2291ffff
+=======
+      m_ExpandedIDs: 2cfbffffb45e0000
+>>>>>>> parent of 3e69e1de (Nothing happened)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -780,9 +814,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 16.138422, y: 9.739812, z: 12.702016}
     speed: 2
     m_Value: {x: 16.138422, y: 9.739812, z: 12.702016}
+=======
+    m_Target: {x: -35.60372, y: 262.33002, z: 312.1043}
+    speed: 2
+    m_Value: {x: -35.60372, y: 262.33002, z: 312.1043}
+>>>>>>> parent of 3e69e1de (Nothing happened)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -829,6 +869,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.15347365, y: -0.8455624, z: 0.33901376, w: 0.38279378}
     speed: 2
     m_Value: {x: 0.15289994, y: -0.8460736, z: 0.3377465, w: 0.3830252}
@@ -836,6 +877,15 @@ MonoBehaviour:
     m_Target: 10
     speed: 2
     m_Value: 10
+=======
+    m_Target: {x: -0.19883117, y: -0.766668, z: 0.28267634, w: -0.5414041}
+    speed: 2
+    m_Value: {x: -0.2000344, y: -0.7653012, z: 0.2834786, w: -0.54216254}
+  m_Size:
+    m_Target: 6.3391986
+    speed: 2
+    m_Value: 6.3391986
+>>>>>>> parent of 3e69e1de (Nothing happened)
   m_Ortho:
     m_Target: 0
     speed: 2

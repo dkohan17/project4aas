@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":16.1384220123291,"y":9.739811897277832,"z":12.70201587677002},"rotation":{"x":0.1534736454486847,"y":-0.8455623984336853,"z":0.3390137553215027,"w":0.3827937841415405},"size":10.0,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-35.603721618652347,"y":262.33001708984377,"z":312.10430908203127},"rotation":{"x":-0.19883117079734803,"y":-0.7666680216789246,"z":0.2826763391494751,"w":-0.541404128074646},"size":6.339198589324951,"orthographic":false}
+>>>>>>> parent of 3e69e1de (Nothing happened)

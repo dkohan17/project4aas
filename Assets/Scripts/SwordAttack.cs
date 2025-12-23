@@ -1,10 +1,11 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SwordAttack : MonoBehaviour
 {
-    public WeaponStats weaponStats;
     public GameObject Sword;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -44,18 +45,24 @@ public class SwordAttack : MonoBehaviour
         }
 =======
 >>>>>>> Attack-System
+=======
+>>>>>>> parent of 3e69e1de (Nothing happened)
     public bool CanAttack = true;
     public float AttackCooldown = 2.0f;
     public bool isAttacking = false;
 
-    private void Update()
+    void Update()
     {
-        if (Input.GetMouseButtonDown(0) && CanAttack)
+        if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            if (CanAttack)
+            {
+                Attack();
+            }
         }
 >>>>>>> main
     }
+
 
     public void Attack()
     {
@@ -64,23 +71,14 @@ public class SwordAttack : MonoBehaviour
         isAttacking = true;
 >>>>>>> main
         CanAttack = false;
-
         Animator anim = Sword.GetComponent<Animator>();
         anim.SetTrigger("Attack");
-
         StartCoroutine(ResetAttackCooldown());
-    }
-
-    public void DealDamage(Collider enemy)
-    {
-        if (enemy.TryGetComponent(out EnemyScript enemyScript))
-        {
-            enemyScript.TakeDamage(weaponStats.damage);
-        }
     }
 
     IEnumerator ResetAttackCooldown()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         yield return new WaitForSeconds(AttackCooldown);
         CanAttack = true;
@@ -111,6 +109,17 @@ public class SwordAttack : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 >>>>>>> main
 >>>>>>> Attack-System
+=======
+        StartCoroutine(ResetAttackBool());
+        yield return new WaitForSeconds(AttackCooldown);
+        CanAttack = true;
+    }
+
+    IEnumerator ResetAttackBool()
+    {
+        yield return new WaitForSeconds(1.5f);
+>>>>>>> parent of 3e69e1de (Nothing happened)
         isAttacking = false;
     }
+
 }

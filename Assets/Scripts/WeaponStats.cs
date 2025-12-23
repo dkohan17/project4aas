@@ -4,7 +4,5 @@ using UnityEngine;
 public class WeaponStats : ScriptableObject
 {
     public string weaponName;
-
-    public int baseDamage = 10;
     public int damage;
 }
